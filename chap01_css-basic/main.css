@@ -1,4 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 section {
   background: orange;
+}
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
 }
