@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Course</title>
+  <style>
+    /* .box {
+    padding: 10px;
+    border: 3px solid red;
+    margin: 20px;
+} */
+
+    .box {
+      padding-top: 5px;
+      padding-right: 10px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+
+      padding: 5px 10px 15px 20px;
+
+      border-top: 3px solid red;
+      border-right: 3px solid red;
+      border-bottom: 3px solid red;
+      border-left: 3px solid red;
+      border-top-style: solid;
+      border-top-width: 3px;
+      border-top-color: red;
+
+      border-style: solid;
+      border-width: 3px;
+      border-color: red;
+
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+
+      margin: 10px 20px 30px 40px;
+
+      box-sizing: border-box;
+      height: 300px;
+      width: 48%;
+      display: inline-block;
+      margin: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    /* #first-box {
+    height: 100%;
+    box-sizing: border-box;
+    height: 300px;
+    width: 50%;
+} */
+
+    #first-box {
+      display: none;
+      /* visibility: hidden; */
+    }
+
+    div:last-of-type:hover {
+      border-color: green;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 
+    1. 예쁜 박스(div)를 만들어 보세요. 내용으로는 "I'm a box!"와 같은 텍스트를 넣을 수 있습니다. 패딩(padding), 테두리(border) (원하는 스타일로 꾸밈), 그리고 여백(margin)을 추가하세요.
+    2. 이전에 하지 않았다면: 박스의 네 면(상하좌우)에 서로 다른 패딩과 여백을 설정하세요.
+    3. 첫 번째 박스 아래에 동일한 박스를 추가하세요. 이 과정에서 이상한 동작이 있는지 확인하세요.
+    4. 첫 번째 박스의 높이를 창 높이의 100%로 설정하세요.
+    5. 첫 번째 박스의 높이를 더 합리적인 값인 300px로, 너비를 50%로 설정하세요.
+    6. 두 개의 박스를 옆으로 배치하세요.
+    7. 박스 번호 1을 "숨기고"(hide) 페이지가 어떻게 변경되는지 확인하세요.
+    8. 마지막 div 요소에 호버(hover) 효과를 추가하세요. 이를 위해 가상 클래스(pseudo-classes)를 사용하세요.
+   -->
+
+  <h1>Assignment - Diving Deeper into CSS</h1>
+  <ol>
+    <li>Build a nice box (<code>div</code>) with some content (e.g. "I'm a box!"), padding, a border (style it as you
+      want) and some margin.</li>
+    <li>If you didn't do it already: Set different padding and margin for the four different sides of the box.</li>
+    <li>Add the same box below the first box and note if you can identify any strange behavior.</li>
+    <li>Give the first box a height of 100% of the window height.</li>
+    <li>Set the first box back to a more reasonable height of 300px and set its width to 50%.</li>
+    <li>Position the two boxes next to each other.</li>
+    <li>"Hide" box number 1 and see how that changes the page.</li>
+    <li>Add a hover effect to the the LAST <code>div</code> element. Use pseudo-classes for that.</li>
+  </ol>
+
+  <div class="box" id="first-box">I'm a box!</div>
+  <div class="box">I'm a box!</div>
+</body>
+
+</html>
