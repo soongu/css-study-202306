@@ -85,6 +85,6 @@ body {
   font-size: 24px;
 }
 
-/* h1 {
-  font-family: sans-serif;
-} */
+#plans {
+  font-family: 'Noto Sans KR', sans-serif;
+}
