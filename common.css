@@ -8,3 +8,9 @@
   padding: 7px 10px;
   cursor: pointer;
 }
+
+.btn:hover, 
+.btn:active {
+  background: #666;
+  color: #fff;
+}

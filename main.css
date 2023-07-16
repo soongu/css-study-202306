@@ -136,3 +136,7 @@ body {
 .plan__feature {
   margin: 10px;
 }
+
+.plan .btn-group {
+  margin-top: 20px;
+}
