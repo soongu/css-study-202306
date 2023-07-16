@@ -9,7 +9,6 @@ body {
   margin: 0;
 }
 
-
 .main-header {
   width: 100%;
   background: #000;
@@ -80,12 +79,13 @@ body {
 /* choose plan */
 #plans {
   margin: 100px 0;
-  text-align: center;
   color: #fff;
   font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
 }
-#plans .section-title {
+section .section-title {
   color: #000;
+  text-align: center;
   font-weight: 700;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
@@ -97,7 +97,7 @@ body {
   justify-content: space-between;
 }
 .plan {
-  width: 30%;
+  width: 32%;
   background: #444;
   padding: 16px;
   margin: 8px;
@@ -139,4 +139,39 @@ body {
 
 .plan .btn-group {
   margin-top: 20px;
+}
+
+/* key features */
+#key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 20px;
+}
+#key-features .section-title {
+  color: #fff;
+  margin: 32px;
+}
+
+.key-feature__list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.key-feature__list .key-feature {
+  /* background: yellow; */
+  width: 30%;
+}
+.key-feature__list .key-feature .key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.key-feature__list .key-feature .key-feature__description {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
 }
