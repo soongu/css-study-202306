@@ -1,67 +1,7 @@
 @import url('common.css');
+@import url('include.css');
 
-* {
-  box-sizing: border-box;
-}
 
-body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-}
-
-.main-header {
-  width: 100%;
-  background: #000;
-  padding: 30px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.main-header__brand {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 26px;
-}
-
-.main-nav__items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
-
-.main-nav__item {
-  margin: 0 16px;
-}
-
-.main-nav__item a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  padding: 3px 0;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
-  color: #888;
-  border-bottom: 5px solid #888;
-}
-
-.main-nav__item--cta a {
-  color: #fff;
-  background: #ff1b68;
-  padding: 8px 16px;
-  border-radius: 8px;
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-  color: #ff1b68;
-  background: #fff;
-  border: none;
-}
 
 #product-overview {
   background: url("lesserafim.jpeg") no-repeat center/cover;
