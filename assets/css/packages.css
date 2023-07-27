@@ -1,42 +1,50 @@
-@import url('../common.css');
-@import url('../include.css');
+@import url('common.css');
+@import url('include.css');
+
+.background {
+  background: url('../img/plan-bg.jpeg') no-repeat center/cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -100;
+}
 
 main {
-  padding-top: 32px;
+  padding: 32px 0;
   display: flex;
   flex-direction: column;
 }
-
-.package {
-  width: 70%;
-  margin: 16px 0;
+main .package {
   border: 4px solid #333;
+  margin: 16px 0;
+  width: 70%;
   border-left: none;
   border-radius: 0 20px 20px 0;
 }
 
-.package:hover,
-.package:active {
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+main .package:hover,
+main .package:active {
+  box-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
   border-color: #ff5454;
 }
-
-.package a {
-  display: block;
+main .package a {
   padding: 32px;
+  display: block;
 }
-.package__title {
+
+main .package a .package__title {
   font-size: 1.5em;
   font-weight: 700;
 }
-.package__subtitle {
+main .package a .package__subtitle {
   font-size: 1.3em;
   font-weight: 700;
   color: #f4f4f4;
   margin: 15px 0;
 }
-
-.package__info {
+main .package a .package__info {
   padding: 16px;
   border: 1px solid #ff1b68;
   font-size: 20px;
@@ -45,23 +53,20 @@ main {
   border-radius: 20px;
 }
 
-
 #free {
   background: rgba(213, 173, 253, 0.95);
 }
-
 #official {
-  align-self: flex-end;
   background: rgba(225, 93, 237, 0.95);
+  align-self: flex-end;
   border-right: none;
   border-left: 4px solid #000;
   border-radius: 20px 0 0 20px;
   text-align: right;
 }
-
 #official:hover,
 #official:active {
-  border-left-color: #ff5454;
+  border-left-color: #ff5454; 
 }
 
 #premium {
@@ -69,7 +74,7 @@ main {
 }
 
 #premium .package__title {
-  color: white;
+  color: #fff;
 }
 
 #premium .package__subtitle {
